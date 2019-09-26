@@ -93,7 +93,18 @@ cc_btn.onclick = function() {
 cc_span.onclick = function() {
 	cc_modal.style.display = "none";
 }
+var art_modal = document.getElementById("myArtModal");
 
+// Get the button that opens the modal
+var art_btn = document.getElementById("myArtBtn");
+
+// Get the <span> element that closes the modal
+var art_span = document.getElementsByClassName("art_close")[0];
+
+// When the user clicks the button, open the modal
+art_btn.onclick = function() {
+	art_modal.style.display = "block";
+}
 
 // disable white link popup in bottom left corner
 var aTags = document.querySelectorAll('span[data-href]');
