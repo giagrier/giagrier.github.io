@@ -88,11 +88,12 @@ var cc_span = document.getElementsByClassName("cc_close")[0];
 cc_btn.onclick = function() {
 	cc_modal.style.display = "block";
 }
-
 // When the user clicks on <span> (x), close the modal
 cc_span.onclick = function() {
 	cc_modal.style.display = "none";
 }
+
+
 var art_modal = document.getElementById("myArtModal");
 
 // Get the button that opens the modal
@@ -104,6 +105,11 @@ var art_span = document.getElementsByClassName("art_close")[0];
 // When the user clicks the button, open the modal
 art_btn.onclick = function() {
 	art_modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+art_span.onclick = function() {
+	art_modal.style.display = "none";
 }
 
 // disable white link popup in bottom left corner
