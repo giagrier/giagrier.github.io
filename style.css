@@ -168,7 +168,7 @@ span.verySmall {
  .a_close {
      color: #000000;
      float: right;
- font-size: 40px;
+     font-size: 40px;
      font-weight: bold;
 }
  .a_close:hover, .a_close:focus {
@@ -221,6 +221,18 @@ span.verySmall {
     font-weight: bold;
 }
 .ep_close:hover, .ep_close:focus {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.art_close {
+    color: #000000;
+    float: right;
+    font-size: 45px;
+    font-weight: bold;
+}
+.art_close:hover, .art_close:focus {
     color: #FFFFFF;
     text-decoration: none;
     cursor: auto;
