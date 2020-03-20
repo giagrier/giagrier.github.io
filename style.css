@@ -6,10 +6,6 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
 }
 
 a, a:visited { color: #000000; text-decoration: none; }
