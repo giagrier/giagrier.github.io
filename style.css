@@ -96,3 +96,10 @@ a:hover, .c_close:hover, .c_close:focus, .ep_close:hover, .ep_close:focus,
     overflow-y: auto;
     border: 1px solid #000000;
 }
+
+@media only screen and (max-width: 420px) {
+  #myContactBtn:hover:after { content: ""; }
+  #myEPBtn:hover:after { content: ""; }
+  #myFBtn:hover:after { content: ""; }
+  #myArtBtn:hover:after { content: ""; }
+}
