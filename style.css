@@ -101,6 +101,6 @@ a:hover, .c_close:hover, .c_close:focus, .ep_close:hover, .ep_close:focus,
   #myFBtn:hover:after { content: ""; }
   #myArtBtn:hover:after { content: ""; }
 
-  #gia { padding-left: 5px; }
-  #grier { padding-right: 5px; }
+  #gia { padding-left: 0px; }
+  #grier { padding-right: 0px; }
 }
