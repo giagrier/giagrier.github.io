@@ -39,15 +39,13 @@ a, a:visited { color: #000000; text-decoration: none; }
 }
 
 #gia {
-  float: left;
   left: 0;
-  padding-left: calc(7px + 1vw);
+  padding-left: calc(3px + 2vw);
 }
 
 #grier {
-  float: right;
   right: 0;
-  padding-right: calc(7px + 1vw);
+  padding-right: calc(3px + 2vw);
 }
 
 #myContactBtn:hover:after, #myEPBtn:hover:after, #myFBtn:hover:after, #myArtBtn:hover:after {
