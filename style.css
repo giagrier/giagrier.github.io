@@ -33,7 +33,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   writing-mode: vertical-rl;
   text-orientation: upright;
   bottom: 4vh;
-  font-size: calc(40px + 3vw + 2vh);
+  font-size: calc(40px + 2vw + 2vh);
   vertical-align: bottom;
   position: absolute;
 }
@@ -41,13 +41,13 @@ a, a:visited { color: #000000; text-decoration: none; }
 #gia {
   float: left;
   left: 0;
-  padding-left: calc(7.5px + 3vw);
+  padding-left: calc(7px + 1vw);
 }
 
 #grier {
   float: right;
   right: 0;
-  padding-right: calc(7.5px + 3vw);
+  padding-right: calc(7px + 1vw);
 }
 
 #myContactBtn:hover:after, #myEPBtn:hover:after, #myFBtn:hover:after, #myArtBtn:hover:after {
