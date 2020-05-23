@@ -110,11 +110,10 @@ a, a:visited { color: #000000; text-decoration: none; }
 
 a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { color: #FFFFFF; }
 
-.modal {
+.modal, .art-modal {
   display: none;
   position: fixed;
   z-index: 2;
-  padding-top: calc(52.5px + 4vh);
   left: 0;
   top: 0;
   right: 0;
@@ -125,7 +124,10 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   background-color: #FFFFFF;
 }
 
-.modal-content {
+.modal { padding-top: calc(52.5px + 4vh); }
+.art-modal { padding-top: calc(30px + 4vh); }
+
+.modal-content{
   background-color: #E2583EA6;
   padding: calc(2.5px + 1vh + 0.5vw);
   border: calc(2px + 0.2vw + 0.2vh) solid;
@@ -136,7 +138,7 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   width: 70%;
   overflow: auto;
   overflow-y: auto;
-  max-height: 70vh;
+  max-height: calc(100vh - 210px);
 }
 
 @media only screen and (max-width: 420px) {
@@ -150,15 +152,11 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   .space { padding-bottom: 0.5vh; }
 
   .modal { padding-top: calc(25px + 12.5vh); }
-  .modal-content {
-    width: 80%;
-    max-height: 60vh;
-  }
+  .modal-content { width: 80%; }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
     border: calc(2px + 0.2vw + 0.35vh) solid;
-    border-radius: 10px;
     font-size: calc(10px + 2vw + 2vh);
   }
 }
