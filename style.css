@@ -16,7 +16,7 @@ a, a:visited { color: #000000; text-decoration: none; }
    text-align: center;
    font-size: calc(85px + 4vw + 3vh);
    position: absolute;
-   top: 0; right: 0; bottom: 0; left: 0;
+   top: calc(10px + 5vh); right: 0; bottom: 0; left: 0;
 }
 
 #title { font-size: calc(25px + 3vw + 2vh); }
@@ -41,6 +41,8 @@ a, a:visited { color: #000000; text-decoration: none; }
   right: 0;
   padding-right: calc(5px + 3vw);
 }
+
+.space { padding-bottom: 1vh; }
 
 .baritem {
   background-color: #E2583EE6;
@@ -93,6 +95,8 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover {
 
   #title { font-size: calc(18px + 1vw + 2vh); }
   #info { font-size: calc(10px + 1.5vh); }
+
+  .left { top: 0; right: 0; bottom: 0; left: 0; }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
