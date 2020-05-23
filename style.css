@@ -135,8 +135,8 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   padding: calc(12px + 0.35vw + 0.35vh);
   width: 70%;
   overflow: auto;
-  max-height: calc(100vh - 210px);
   overflow-y: auto;
+  max-height: 70vh;
 }
 
 @media only screen and (max-width: 420px) {
@@ -150,7 +150,10 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   .space { padding-bottom: 0.5vh; }
 
   .modal { padding-top: calc(25px + 12.5vh); }
-  .modal-content { width: 80%; }
+  .modal-content {
+    width: 80%;
+    max-height: 60vh;
+  }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
