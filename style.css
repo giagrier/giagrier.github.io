@@ -1,26 +1,26 @@
 body {
-    font-family: Arial Rounded MT Bold;
-    text-decoration: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-family: Arial Rounded MT Bold;
+  text-decoration: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 a, a:visited { color: #000000; text-decoration: none; }
 
 .left {
-   margin: auto;
-   width: 50%;
-   text-align: center;
-   font-size: calc(85px + 4vw + 3vh);
-   position: absolute;
-   top: calc(10px + 5vh); right: 0; bottom: 0; left: 0;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-size: calc(85px + 4vw + 3vh);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
 }
 
-#title { font-size: calc(25px + 3vw + 2vh); }
-#info { font-size: calc(12px + 2vw + 1vh); }
+#title { text-decoration: underline; font-size: calc(25px + 3vw + 2vh); }
+#info { font-size: calc(10px + 1.5vw + 1vh); }
 
 #gia, #grier {
   color: #D9D9D9;
@@ -43,6 +43,7 @@ a, a:visited { color: #000000; text-decoration: none; }
 }
 
 .space { padding-bottom: 1vh; }
+.iSpace { padding-bottom: calc(2.5vh + 2.5vw); }
 
 .baritem {
   background-color: #E2583EE6;
@@ -52,6 +53,47 @@ a, a:visited { color: #000000; text-decoration: none; }
   font-size: calc(10px + 2vw + 2vh);
 }
 .baritem:hover { color: #CC99FF; }
+
+/* text on images */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #808080;
+}
+
+/* no comma needed. made that mistake. */
+.container:hover .overlay { opacity: 0.85; }
+
+.text {
+  font-size: calc(7px + 0.65vw);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.container, .hoverables {
+  position: relative;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.hoverables { display: block; }
+
+.websiteImages {
+  padding: calc(3.5px + 1vw);
+  max-width: 50%;
+}
 
 .c_close, .art_close, .f_close, .ep_close {
    color: #000000;
@@ -77,17 +119,17 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
 }
 
 .modal-content {
-    background-color: #E2583EA6;
-    padding: calc(2.5px + 1vh + 0.5vw);
-    border: calc(2px + 0.2vw + 0.2vh) solid;
-    border-radius: 10px;
-    font-size: calc(10px + 3vw + 2vh);
-    margin: auto;
-    padding: calc(12px + 0.35vw + 0.35vh);
-    width: 70%;
-    overflow: auto;
-    max-height: calc(100vh - 210px);
-    overflow-y: auto;
+  background-color: #E2583EA6;
+  padding: calc(2.5px + 1vh + 0.5vw);
+  border: calc(2px + 0.2vw + 0.2vh) solid;
+  border-radius: 10px;
+  font-size: calc(10px + 3vw + 2vh);
+  margin: auto;
+  padding: calc(12px + 0.35vw + 0.35vh);
+  width: 70%;
+  overflow: auto;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
 
 @media only screen and (max-width: 420px) {
