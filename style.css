@@ -98,6 +98,7 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   #info { font-size: calc(10px + 1.5vh); }
 
   .left { top: -40px; }
+  .space { padding-bottom: 0.5vh; }
 
   .modal { padding-top: calc(25px + 12.5vh); }
   .modal-content { width: 80%; }
