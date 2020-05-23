@@ -96,7 +96,7 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover {
   #title { font-size: calc(18px + 1vw + 2vh); }
   #info { font-size: calc(10px + 1.5vh); }
 
-  .left { top: 0; right: 0; bottom: 0; left: 0; }
+  .left { top: -20px; }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
