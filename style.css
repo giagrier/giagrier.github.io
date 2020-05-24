@@ -30,7 +30,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   writing-mode: vertical-rl;
   text-orientation: upright;
   bottom: 4vh;
-  font-size: calc(42.5px + 2vw + 2vh);
+  font-size: calc(35px + 2vw + 1.5vh);
   vertical-align: bottom;
   position: absolute;
 }
@@ -53,7 +53,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   padding: calc(2.5px + 1vh + 0.5vw);
   border: calc(2px + 0.2vw + 0.2vh) solid;
   border-radius: 10px;
-  font-size: calc(10px + 2vw + 2vh);
+  font-size: calc(10px + 1vw + 2vh);
 }
 .baritem:hover { color: #CC99FF; }
 
@@ -157,6 +157,6 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
     border: calc(2px + 0.2vw + 0.35vh) solid;
-    font-size: calc(10px + 2vw + 2vh);
+    font-size: calc(10px + 1vw + 1vh);
   }
 }
