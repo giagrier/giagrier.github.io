@@ -1,5 +1,6 @@
 body {
   font-family: Arial Rounded MT Bold;
+  background-color: #fffaf0;
   text-decoration: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -10,14 +11,30 @@ body {
 
 a, a:visited { color: #000000; text-decoration: none; }
 
-.left {
-  text-align: center;
+.list {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 34.5%;
   margin: auto;
-  width: 50%;
-  font-size: calc(85px + 4vw + 3vh);
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
 }
+
+#flower {
+  font-size: calc(35px + 5vw + 4vh);
+  position: fixed;
+  top: 47.5%;
+  left: 67.5%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+#myEPBtn { width: 30%; position: fixed; top: calc(15px + 2vh); }
+#myContactBtn { width: 30%; position: fixed; bottom: calc(15px + 2vh); }
 
 #title {
   text-decoration: underline;
@@ -33,6 +50,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   font-size: calc(35px + 2vw + 1.5vh);
   vertical-align: bottom;
   position: absolute;
+  z-index: 1;
 }
 
 #gia {
@@ -45,6 +63,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   padding-right: calc(5px + 3vw);
 }
 
+.mspace { padding-bottom: 2.5vh; }
 .space { padding-bottom: 1vh; }
 .iSpace { padding-bottom: calc(2.5vh + 2.5vw); }
 
@@ -113,7 +132,7 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
 .modal, .art-modal {
   display: none;
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   left: 0;
   top: 0;
   right: 0;
@@ -121,7 +140,7 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: #FFFFFF;
+  background-color: #fffaf0;
 }
 
 .modal { padding-top: calc(52.5px + 4vh); }
@@ -144,15 +163,16 @@ a:hover, .c_close:hover, .ep_close:hover, .f_close:hover, .art_close:hover { col
 @media only screen and (max-width: 420px) {
   #gia { padding-left: 0px; }
   #grier { padding-right: 0px; }
-
   #title { font-size: calc(18px + 1vw + 2vh); }
   #info { font-size: calc(10px + 1.5vh); }
-
-  .left { top: -40px; }
+  .list { left: 27%; }
+  #flower { left: 72.5%; }
   .space { padding-bottom: 0.5vh; }
-
+  .mspace { padding-bottom: 1.5vh; }
   .modal { padding-top: calc(25px + 12.5vh); }
   .modal-content { width: 80%; }
+  #myEPBtn { width: 37.5%; top: calc(15px + 3vh); }
+  #myContactBtn { width: 37.5%; bottom: calc(15px + 3vh); }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
