@@ -161,7 +161,8 @@ a:hover, .c_close:hover, .p_close:hover, .f_close:hover, .art_close:hover { colo
 }
 
 @media only screen and (max-width: 420px) {
-  #gia { left: -50px; }
+  #gia { left: -170px; }
+  #grier { right: 40px; }
   #title { font-size: calc(18px + 1vw + 2vh); }
   #info { font-size: calc(10px + 1.5vh); }
   .space { padding-bottom: 0.5vh; }
