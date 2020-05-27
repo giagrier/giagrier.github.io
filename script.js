@@ -1,8 +1,8 @@
 $('#myContactBtn').on('click', function() { $('#myContactModal').css('display', 'block'); });
 $('.c_close').first().on('click', function() { $('#myContactModal').css('display', 'none'); });
 
-$('#myEPBtn').on('click', function() { $('#myEPModal').css('display', 'block'); });
-$('.ep_close').first().on('click', function() { $('#myEPModal').css('display', 'none'); });
+$('#myPBtn').on('click', function() { $('#myPModal').css('display', 'block'); });
+$('.p_close').first().on('click', function() { $('#myPModal').css('display', 'none'); });
 
 $('#myFBtn').on('click', function() { $('#myFModal').css('display', 'block'); });
 $('.f_close').first().on('click', function() { $('#myFModal').css('display', 'none'); });
@@ -18,11 +18,10 @@ $(async function() {
   var i = 0;
 
   while (true) {
-    i = i % 8;
     await sleep(2000);
     $('#gia').html(l[i]);
     await sleep(2000);
     $('#grier').html(r[i]);
-    i++;
+    i = (i + 1) % 8;
   }
 })
