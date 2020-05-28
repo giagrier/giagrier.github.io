@@ -16,7 +16,8 @@ $(async function() {
   var l = ['peaceful', '&nbsp; grateful', '&nbsp; truthful', 'thoughtful', ' &nbsp; mindful', 'beautiful', 'powerful', '&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GIA'];
   var r = ['innovator', 'creator', 'friend', 'thinker', 'writer', 'citizen', 'ideator', 'GRIER'];
   var i = 0;
-
+  await sleep(2000);
+  
   while (true) {
     await sleep(2000);
     $('#gia').html(l[i]);
