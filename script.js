@@ -13,7 +13,7 @@ $('.art_close').first().on('click', function() { $('#myArtModal').css('display',
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
 $(async function() {
-  var l = ['peaceful', 'grateful', 'truthful', 'thoughtful', 'mindful', 'beautiful', 'powerful', 'GIA'];
+  var l = ['peaceful', '&nbsp; grateful', '&nbsp; truthful', 'thoughtful', ' &nbsp; mindful', 'beautiful', 'powerful', '&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GIA'];
   var r = ['innovator', 'creator', 'friend', 'thinker', 'writer', 'citizen', 'ideator', 'GRIER'];
   var i = 0;
 
