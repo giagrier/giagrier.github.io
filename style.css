@@ -156,7 +156,7 @@ a, a:visited { color: #000000; text-decoration: none; }
 
 a:hover, #c_close:hover, #p_close:hover, #f_close:hover, #art_close:hover, #ep_close:hover, #sis_close:hover, #camp_close:hover { color: #FFFFFF; }
 
-.modal {
+.modal, .tall-modal {
   display: none;
   position: fixed;
   padding-top: calc(52.5px + 4vh);
@@ -194,6 +194,7 @@ a:hover, #c_close:hover, #p_close:hover, #f_close:hover, #art_close:hover, #ep_c
   .space { padding-bottom: 0.5vh; }
   .mspace { padding-bottom: 3vh; }
   .modal { padding-top: calc(25px + 12.5vh); }
+  .tall-modal { padding-top: calc(30px + 4vh); }
   .modal-content { width: 80%; }
   #myPBtn, #myContactBtn { width: 37.5%; }
 
