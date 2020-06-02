@@ -39,11 +39,27 @@ a, a:visited { color: #000000; text-decoration: none; }
 #myPBtn { top: calc(15px + 3.5vh); }
 #myContactBtn { bottom: calc(15px + 3.5vh); }
 
+.slash {
+  position: absolute;
+  font-size: calc(7px + 1vw + 1.2vh);
+}
+
+.highlite {
+  color: #E6E6E6; /* needed */
+  padding-left: 4vw;
+  position: absolute;
+  font-size: calc(7px + 1vw + 1.2vh);
+  width: 65vw;
+  letter-spacing: 0.075vw;
+}
+
 #title {
   text-decoration: underline;
-  font-size: calc(25px + 3vw + 2vh);
+  font-size: calc(20px + 2vw + 2vh);
 }
-#info { font-size: calc(10px + 1.5vw + 1vh); }
+#info {
+  font-size: calc(10px + 1.5vw + 1vh);
+}
 
 #gia, #grier {
   color: #D9D9D9;
@@ -62,17 +78,29 @@ a, a:visited { color: #000000; text-decoration: none; }
 #gia { left: -170px; }
 #grier { right: calc(50px + 2vw); }
 
-.mspace { padding-bottom: 2.5vh; }
+.mspace { padding-bottom: calc(3vh + 1vw); }
 .space { padding-bottom: 1vh; }
 .iSpace { padding-bottom: calc(2.5vh + 2.5vw); }
 
 .baritem {
-  background-color: #E2583EE6;
+  background-color: #E2583ECC;
   padding: calc(2.5px + 1vh + 0.5vw);
   border: calc(2px + 0.2vw + 0.2vh) solid;
   border-radius: 10px;
   font-size: calc(10px + 1vw + 2vh);
 }
+
+#myFBtn, #myArtBtn, #myCampBtn, #mySisBtn, #myEPBtn {
+  margin-left: calc(10px + 2vw);
+  padding-right: calc(10px + 3vh + 7.5vw);
+}
+
+#outro {
+  padding-top: calc(10px + 2vh);
+  width: 85%;
+  height: calc(250px + 10vh + 10vw);
+}
+
 .baritem:hover { color: #CC99FF; }
 
 /* text on images */
@@ -120,17 +148,18 @@ a, a:visited { color: #000000; text-decoration: none; }
   transform: translate(28.5%, 0%);
 }
 
-.c_close, .art_close, .f_close, .p_close {
+#c_close, #art_close, #f_close, #p_close, #ep_close, #sis_close, #camp_close {
    color: #000000;
    float: right;
    font-size: calc(37.5px + 0.75vw + 0.75vh);
 }
 
-a:hover, .c_close:hover, .p_close:hover, .f_close:hover, .art_close:hover { color: #FFFFFF; }
+a:hover, #c_close:hover, #p_close:hover, #f_close:hover, #art_close:hover, #ep_close:hover, #sis_close:hover, #camp_close:hover { color: #FFFFFF; }
 
-.modal, .art-modal {
+.modal {
   display: none;
   position: fixed;
+  padding-top: calc(52.5px + 4vh);
   z-index: 4;
   left: 0;
   top: 0;
@@ -141,9 +170,6 @@ a:hover, .c_close:hover, .p_close:hover, .f_close:hover, .art_close:hover { colo
   overflow: auto;
   background-color: #fffaf0;
 }
-
-.modal { padding-top: calc(52.5px + 4vh); }
-.art-modal { padding-top: calc(30px + 4vh); }
 
 .modal-content{
   background-color: #E2583EA6;
@@ -166,17 +192,29 @@ a:hover, .c_close:hover, .p_close:hover, .f_close:hover, .art_close:hover { colo
   #title { font-size: calc(18px + 1vw + 2vh); }
   #info { font-size: calc(10px + 1.5vh); }
   .space { padding-bottom: 0.5vh; }
-  .mspace { padding-bottom: 1.5vh; }
+  .mspace { padding-bottom: 3vh; }
   .modal { padding-top: calc(25px + 12.5vh); }
   .modal-content { width: 80%; }
-  #myPBtn { width: 37.5%; }
-  #myContactBtn { width: 37.5%; }
+  #myPBtn, #myContactBtn { width: 37.5%; }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
-    border: calc(2px + 0.2vw + 0.35vh) solid;
+    border: calc(2px + 0.2vw + 0.3vh) solid;
     font-size: calc(10px + 1vw + 1vh);
   }
+
+  #myFBtn, #myArtBtn, #myCampBtn, #mySisBtn, #myEPBtn {
+    border: calc(2px + 0.2vw + 0.15vh) solid;
+    padding: calc(2.5px + 1vh + 0.5vw);
+    padding-right: calc(10px + 1vh + 7.5vw);
+  }
+
+  #outro {
+    padding-top: calc(10px + 2vh);
+    width: 95%;
+    height: calc(175px + 10vh + 10vw);
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
