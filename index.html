@@ -16,17 +16,17 @@
       <span id="grier">GRIER</span>
       <div class="list">
         <span id="flower">&#10047;&#xFE0E;</span>
-        <a id="myPBtn" class="baritem">projects</a>
-        <a id="myContactBtn" class="baritem">let's connect</a>
+        <a id="PBtn" onclick="show($(this).attr('id'))" class="baritem">projects</a>
+        <a id="ContactBtn" onclick="show($(this).attr('id'))" class="baritem">let's connect</a>
       </div>
-      <div id="myPModal" class="modal">
+      <div id="PModal" class="modal">
           <div class="modal-content">
-              <span id="p_close">&#10006;&#xFE0E;</span>
+              <span onclick="hide($(this).attr('id'))" id="Pclose">&#10006;&#xFE0E;</span>
               <div class="space"></div>
-              <a id="myCampBtn" class="baritem">campaigns</a> <br>
-              <div id="myCampModal" class="tall-modal">
+              <a id="CampBtn" onclick="show($(this).attr('id'))" class="baritem">campaigns</a> <br>
+              <div id="CampModal" class="tall-modal">
                   <div class="modal-content">
-                      <span id="camp_close">&#10006;&#xFE0E;</span>
+                      <span onclick="hide($(this).attr('id'))" id="Campclose">&#10006;&#xFE0E;</span>
                       <text id="title">Campaigns</text>
                       <div id="mspace"></div>
                       <iframe id="vid" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funicef%2Fvideos%2F10156474339456983%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
@@ -46,16 +46,16 @@
                   </div>
               </div>
               <div class="mspace"></div>
-              <a id="myFBtn" class="baritem">fashion</a> <br>
+              <a id="FBtn" onclick="show($(this).attr('id'))" class="baritem">fashion</a> <br>
               <div class="mspace"></div>
-              <a id="myArtBtn" class="baritem">art</a> <br>
+              <a id="ArtBtn" onclick="show($(this).attr('id'))" class="baritem">art</a> <br>
               <div class="mspace"></div>
-              <a id="myEPBtn" class="baritem">events</a> <br>
+              <a id="EPBtn" onclick="show($(this).attr('id'))" class="baritem">events</a> <br>
               <div class="mspace"></div>
-              <a id="mySisBtn" class="baritem">sisterhood</a>
-              <div id="mySisModal" class="tall-modal">
+              <a id="SisBtn" onclick="show($(this).attr('id'))" class="baritem">sisterhood</a>
+              <div id="SisModal" class="tall-modal">
                   <div class="modal-content">
-                      <span id="sis_close">&#10006;&#xFE0E;</span>
+                      <span onclick="hide($(this).attr('id'))" id="Sisclose">&#10006;&#xFE0E;</span>
                       <text id="title">Sisterhood</text>
                       <div id="space"></div>
                       <a href="https://thriveglobal.com/stories/i-marchforsisterhood-because-i-believe-in-the-power-of-women-and-girls/" target="_blank" id="info"> &middot; Why I March for Sisterhood</a>
@@ -68,9 +68,9 @@
                       <div id="space"></div>
                   </div>
               </div>
-              <div id="myFModal" class="modal">
+              <div id="FModal" class="modal">
                   <div class="modal-content">
-                      <span id="f_close">&#10006;&#xFE0E;</span>
+                      <span onclick="hide($(this).attr('id'))" id="Fclose">&#10006;&#xFE0E;</span>
                       <text id="title">Fashion</text>
                       <div id="space"></div>
                       <a href="https://fashionweekdaily.com/women-year-live-summit-welcomed-ashley-graham-joe-biden-chelsea-clinton/" target="_blank" id="info"> &middot; Women of the Year Live Summit</a>
@@ -86,9 +86,9 @@
                   </div>
               </div>
               <div class="mspace"></div>
-              <div id="myArtModal" class="tall-modal">
+              <div id="ArtModal" class="tall-modal">
                   <div class="modal-content">
-                    <span id="art_close">&#10006;&#xFE0E;</span>
+                    <span onclick="hide($(this).attr('id'))" id="Artclose">&#10006;&#xFE0E;</span>
                     <div id="space"></div>
                     <div class="websiteImages">
                       <div class="container">
@@ -144,9 +144,9 @@
           </div>
         </div>
       </div>
-      <div id="myContactModal" class="modal">
+      <div id="ContactModal" class="modal">
       <div class="modal-content">
-              <span id="c_close">&#10006;&#xFE0E;</span>
+              <span onclick="hide($(this).attr('id'))" id="Contactclose">&#10006;&#xFE0E;</span>
               <div id="space"></div>
               <text id="info">e : <a href="mailto:giagrier@gmail.com?Subject=Hello!" target="_blank">giagrier@gmail.com</a></text>
               <div id="space"></div>

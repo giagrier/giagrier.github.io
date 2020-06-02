@@ -34,7 +34,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   line-height: 0;
 }
 
-#myPBtn, #myContactBtn, #flower {
+#PBtn, #ContactBtn, #flower {
   width: 30%;
   position: fixed;
   left: 50%;
@@ -42,8 +42,8 @@ a, a:visited { color: #000000; text-decoration: none; }
   transform: translate(-50%,0%);
   text-align: center;
 }
-#myPBtn { top: calc(15px + 3.5vh); }
-#myContactBtn { bottom: calc(15px + 3.5vh); }
+#PBtn { top: calc(15px + 3.5vh); }
+#ContactBtn { bottom: calc(15px + 3.5vh); }
 
 .slash {
   position: absolute;
@@ -96,7 +96,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   font-size: calc(10px + 1vw + 2vh);
 }
 
-#myFBtn, #myArtBtn, #myCampBtn, #mySisBtn, #myEPBtn {
+#FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn {
   margin-left: calc(10px + 2vw);
   padding-right: calc(10px + 3vh + 7.5vw);
 }
@@ -154,13 +154,13 @@ a, a:visited { color: #000000; text-decoration: none; }
   transform: translate(28.5%, 0%);
 }
 
-#c_close, #art_close, #f_close, #p_close, #ep_close, #sis_close, #camp_close {
+#Contactclose, #Artclose, #Fclose, #Pclose, #EPclose, #Sisclose, #Campclose {
    color: #000000;
    float: right;
    font-size: calc(37.5px + 0.75vw + 0.75vh);
 }
 
-a:hover, #c_close:hover, #p_close:hover, #f_close:hover, #art_close:hover, #ep_close:hover, #sis_close:hover, #camp_close:hover { color: #FFFFFF; }
+a:hover, #Contactclose:hover, #Pclose:hover, #Fclose:hover, #Artclose:hover, #EPclose:hover, #Sisclose:hover, #Campclose:hover { color: #FFFFFF; }
 
 .modal, .tall-modal {
   display: none;
@@ -202,7 +202,7 @@ a:hover, #c_close:hover, #p_close:hover, #f_close:hover, #art_close:hover, #ep_c
   .modal { padding-top: calc(25px + 12.5vh); }
   .tall-modal { padding-top: calc(30px + 4vh); }
   .modal-content { width: 80%; }
-  #myPBtn, #myContactBtn { width: 37.5%; }
+  #PBtn, #ContactBtn { width: 37.5%; }
 
   .baritem {
     padding: calc(2.5px + 1.5vh + 0.5vw);
@@ -210,7 +210,7 @@ a:hover, #c_close:hover, #p_close:hover, #f_close:hover, #art_close:hover, #ep_c
     font-size: calc(10px + 1vw + 1vh);
   }
 
-  #myFBtn, #myArtBtn, #myCampBtn, #mySisBtn, #myEPBtn {
+  #FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn {
     border: calc(2px + 0.2vw + 0.15vh) solid;
     padding: calc(2.5px + 1vh + 0.5vw);
     padding-right: calc(10px + 1vh + 7.5vw);
