@@ -27,7 +27,7 @@ function mus(y, h) {
     d = 'block';
     x = ' -';
   }
-  else if (ht == '-') {
+  else {
     d = 'none';
     x = ' +';
   }
