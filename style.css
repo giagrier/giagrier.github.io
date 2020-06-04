@@ -61,7 +61,7 @@ a, a:visited { color: #000000; text-decoration: none; }
 #info { font-size: calc(9px + 1vw + 1vh); }
 .dot { font-size: 115%; }
 
-#Whitney, #New, #Frick, #Jewish, #Transit, #Bruce, #w2017, #w2016, #w2015 { display: none; }
+#Whitney, #New, #Frick, #Jewish, #Transit, #BHQFU, #w2017, #w2016, #w2015 { display: none; }
 #_2017, #_2016, #_2015 { font-size: calc(10px + 1.25vw + 1vh); }
 
 #W, #N, #F, #J, #T, #B { font-size: calc(12px + 1.5vw + 1vh); }
