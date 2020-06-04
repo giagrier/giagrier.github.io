@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html link=https://giagrier.github.io/ lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -12,150 +11,189 @@
     <title>Gia Grier</title>
 </head>
 <body>
-      <span id="gia">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GIA</span>
-      <span id="grier">GRIER</span>
-      <div class="list">
+    <span id="gia">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GIA</span>
+    <span id="grier">GRIER</span>
+
+    <div class="list">
         <span id="flower">&#10047;&#xFE0E;</span>
         <a id="PBtn" onclick="show($(this).attr('id'))" class="baritem">projects</a>
         <a id="ContactBtn" onclick="show($(this).attr('id'))" class="baritem">let's connect</a>
-      </div>
-      <div id="PModal" class="modal">
-          <div class="modal-content">
-              <span onclick="hide($(this).attr('id'))" id="Pclose">&#10006;&#xFE0E;</span>
-              <div class="space"></div>
-              <a id="CampBtn" onclick="show($(this).attr('id'))" class="baritem">campaigns</a> <br>
-              <div id="CampModal" class="tall-modal">
-                  <div class="modal-content">
-                      <span onclick="hide($(this).attr('id'))" id="Campclose">&#10006;&#xFE0E;</span>
-                      <text id="title">Campaigns</text>
-                      <div id="mspace"></div>
-                      <iframe id="vid" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funicef%2Fvideos%2F10156474339456983%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                      <div id="space"></div>
-                      <a href="https://www.yahoo.com/news/generation-z-opens-refugee-crisis-090037508.html?guccounter=1" target="_blank" id="info"> &middot; #RefugeesWelcome</a>
-                      <div id="space"></div>
-                      <a href="https://www.nytimes.com/2018/09/23/nyregion/swell-water-bottles-nyc-high-schools.html" target="_blank" id="info"> &middot; Reducing Single-use Plastic in NYC Public Schools</a>
-                      <div id="space"></div>
-                      <a href="https://whitney.org/Education/Teens/TeensBlog/ArtivistTeenNight" target="_blank" id="info"> &middot; #Artivism</a>
-                      <div id="space"></div>
-                      <a href="https://whitney.org/Education/Teens/TeensBlog/LetYourVoiceBeHeardSocraticSeminar" target="_blank" id="info"> &middot; Let Your Voices Be Heard</a>
-                      <div id="space"></div>
-                      <a href="https://whitney.org/Education/Teens/TeensBlog/InterviewWithMPA" target="_blank" id="info"> &middot; Interview with Artist MPA</a>
-                      <div id="space"></div>
-                      <a href="https://whitney.org/Education/Teens/TeensBlog/MPAInterviewsAYILeader" target="_blank" id="info"> &middot; Artist MPA interviews Gia</a>
-                      <div id="space"></div>
-                  </div>
-              </div>
-              <div class="mspace"></div>
-              <a id="FBtn" onclick="show($(this).attr('id'))" class="baritem">fashion</a> <br>
-              <div class="mspace"></div>
-              <a id="ArtBtn" onclick="show($(this).attr('id'))" class="baritem">art</a> <br>
-              <div class="mspace"></div>
-              <a id="EPBtn" onclick="show($(this).attr('id'))" class="baritem">events</a> <br>
-              <div class="mspace"></div>
-              <a id="SisBtn" onclick="show($(this).attr('id'))" class="baritem">sisterhood</a>
-              <div id="SisModal" class="tall-modal">
-                  <div class="modal-content">
-                      <span onclick="hide($(this).attr('id'))" id="Sisclose">&#10006;&#xFE0E;</span>
-                      <text id="title">Sisterhood</text>
-                      <div id="space"></div>
-                      <a href="https://thriveglobal.com/stories/i-marchforsisterhood-because-i-believe-in-the-power-of-women-and-girls/" target="_blank" id="info"> &middot; Why I March for Sisterhood</a>
-                      <div id="space"></div>
-                      <iframe id="vid" src="https://www.youtube.com/embed/BcULmLwT4jc" frameborder="0" allowfullscreen></iframe>
-                      <div id="space"></div>
-                      <a href="https://www.teenvogue.com/story/girls-who-code-healing-sisterhood-visual-album" target="_blank" id="info"> &middot; Sisterh>>d FW18</a>
-                      <div id="space"></div>
-                      <a href="https://www.instagram.com/period.goucher" target="_blank" id="info"> &middot; @period.goucher</a>
-                      <div id="space"></div>
-                  </div>
-              </div>
-              <div id="FModal" class="modal">
-                  <div class="modal-content">
-                      <span onclick="hide($(this).attr('id'))" id="Fclose">&#10006;&#xFE0E;</span>
-                      <text id="title">Fashion</text>
-                      <div id="space"></div>
-                      <a href="https://fashionweekdaily.com/women-year-live-summit-welcomed-ashley-graham-joe-biden-chelsea-clinton/" target="_blank" id="info"> &middot; Women of the Year Live Summit</a>
-                      <div id="space"></div>
-                      <a href="https://fashionweekdaily.com/sachin-babi-spring-summer-2018/" target="_blank" id="info"> &middot; Sachin & Babi SS18</a>
-                      <div id="space"></div>
-                      <a href="https://fashionweekdaily.com/zadig-voltaire-springsummer-2018/" target="_blank" id="info"> &middot; Zadig & Voltaire SS18</a>
-                      <div id="space"></div>
-                      <a href="https://fashionweekdaily.com/alice-olivia-spring-2018/" target="_blank" id="info"> &middot; Alice & Olivia SS18</a>
-                      <div id="space"></div>
-                      <a href="https://whitney.org/Education/Teens/TeensBlog/AstroNoiseAndYeezy" target="_blank" id="info"> &middot; Astro Noise and Yeezy</a>
-                      <div id="space"></div>
-                  </div>
-              </div>
-              <div class="mspace"></div>
-              <div id="ArtModal" class="tall-modal">
-                  <div class="modal-content">
-                    <span onclick="hide($(this).attr('id'))" id="Artclose">&#10006;&#xFE0E;</span>
-                    <div id="space"></div>
-                    <div class="websiteImages">
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art1.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2020<br> <br> H x W in. <br> <br> Collage</div>
-                        </div>
-                      </div>
-                      <div class="iSpace"></div>
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art2.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2018<br> <br> H x W in. <br> <br> Ink</div>
-                        </div>
-                      </div>
-                      <div class="iSpace"></div>
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art3.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2018<br> <br> H x W in. <br> <br> Watercolor, ink, collage</div>
-                        </div>
-                      </div>
-                      <div class="iSpace"></div>
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art4.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2018<br> <br> H x W in. <br> <br> Collage</div>
-                        </div>
-                      </div>
-                      <div class="iSpace"></div>
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art5.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2018<br> <br> H x W in. <br> <br> Ink</div>
-                        </div>
-                      </div>
-                      <div class="iSpace"></div>
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art6.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2017<br> <br> H x W in. <br> <br> Pastels</div>
-                        </div>
-                      </div>
-                      <div class="iSpace"></div>
-                      <div class="container">
-                        <img class="hoverables" src="img/art/art7.jpg"></img>
-                        <div class="overlay">
-                          <div class="text">2017<br> <br> H x W in. <br> <br> Collage, colored pencil</div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    </div>
+
+    <div id="PModal" class="modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="Pclose">&#10006;&#xFE0E;</span>
+            <div class="space"></div>
+            <a id="CampBtn" onclick="show($(this).attr('id'))" class="baritem">campaigns</a> <br>
+            <div class="mspace"></div>
+            <a id="FBtn" onclick="show($(this).attr('id'))" class="baritem">fashion</a> <br>
+            <div class="mspace"></div>
+            <a id="ArtBtn" onclick="show($(this).attr('id'))" class="baritem">art</a> <br>
+            <div class="mspace"></div>
+            <a id="EPBtn" onclick="show($(this).attr('id'))" class="baritem">events</a> <br>
+            <div class="mspace"></div>
+            <a id="SisBtn" onclick="show($(this).attr('id'))" class="baritem">sisterhood</a>
+            <div class="mspace"></div>
         </div>
-      </div>
-      <div id="ContactModal" class="modal">
-      <div class="modal-content">
-              <span onclick="hide($(this).attr('id'))" id="Contactclose">&#10006;&#xFE0E;</span>
-              <div id="space"></div>
-              <text id="info">e : <a href="mailto:giagrier@gmail.com?Subject=Hello!" target="_blank">giagrier@gmail.com</a></text>
-              <div id="space"></div>
-              <text id="info">ig: <a target="_blank" href="https://www.instagram.com/giagrier/">@giagrier</a></text>
-              <div id="space"></div>
-              <text id="info">linkedin: <a target="_blank" href="https://www.linkedin.com/in/giagrier/">Gia Grier</a></text>
-              <div id="space"></div>
-          </div>
-      </div>
-      <script src="script.js"></script>
-  </body>
+    </div>
+
+    <div id="CampModal" class="tall-modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="Campclose">&#10006;&#xFE0E;</span>
+            <text id="title">Campaigns</text>
+            <div id="mspace"></div>
+            <a href="https://www.yahoo.com/news/generation-z-opens-refugee-crisis-090037508.html?guccounter=1" target="_blank" id="info"> <span class="dot">&middot;</span> #RefugeesWelcome</a>
+            <div id="space"></div>
+            <iframe id="fb-video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Funicef%2Fvideos%2F10156474339456983%2F&show_text=0" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+            <div id="space"></div>
+            <a href="https://www.nytimes.com/2018/09/23/nyregion/swell-water-bottles-nyc-high-schools.html" target="_blank" id="info"> <span class="dot">&middot;</span> Reducing Single-use Plastic in NYC Public Schools</a>
+            <div id="space"></div>
+            <a href="https://whitney.org/Education/Teens/TeensBlog/ArtivistTeenNight" target="_blank" id="info"> <span class="dot">&middot;</span> #Artivism</a>
+            <div id="space"></div>
+            <a href="https://whitney.org/Education/Teens/TeensBlog/LetYourVoiceBeHeardSocraticSeminar" target="_blank" id="info"> <span class="dot">&middot;</span> Let Your Voices Be Heard</a>
+            <div id="space"></div>
+            <a href="https://whitney.org/Education/Teens/TeensBlog/InterviewWithMPA" target="_blank" id="info"> <span class="dot">&middot;</span> Interview with Artist MPA</a>
+            <div id="space"></div>
+            <a href="https://whitney.org/Education/Teens/TeensBlog/MPAInterviewsAYILeader" target="_blank" id="info"> <span class="dot">&middot;</span> Artist MPA interviews Gia</a>
+            <div id="space"></div>
+        </div>
+    </div>
+
+    <div id="FModal" class="modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="Fclose">&#10006;&#xFE0E;</span>
+            <text id="title">Fashion</text>
+            <div id="space"></div>
+            <a href="https://fashionweekdaily.com/women-year-live-summit-welcomed-ashley-graham-joe-biden-chelsea-clinton/" target="_blank" id="info"> <span class="dot">&middot;</span> Women of the Year Live Summit</a>
+            <div id="space"></div>
+            <a href="https://fashionweekdaily.com/sachin-babi-spring-summer-2018/" target="_blank" id="info"> <span class="dot">&middot;</span> Sachin & Babi SS18</a>
+            <div id="space"></div>
+            <a href="https://fashionweekdaily.com/zadig-voltaire-springsummer-2018/" target="_blank" id="info"> <span class="dot">&middot;</span> Zadig & Voltaire SS18</a>
+            <div id="space"></div>
+            <a href="https://fashionweekdaily.com/alice-olivia-spring-2018/" target="_blank" id="info"> <span class="dot">&middot;</span> Alice & Olivia SS18</a>
+            <div id="space"></div>
+            <a href="https://whitney.org/Education/Teens/TeensBlog/AstroNoiseAndYeezy" target="_blank" id="info"> <span class="dot">&middot;</span> Astro Noise and Yeezy</a>
+            <div id="space"></div>
+        </div>
+    </div>
+
+    <div id="ArtModal" class="tall-modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="Artclose">&#10006;&#xFE0E;</span>
+            <div id="space"></div>
+            <div class="websiteImages">
+                <div class="container">
+                    <img class="hoverables" src="img/art/art1.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2020<br> <br> H x W in. <br> <br> Collage</div>
+                    </div>
+                </div>
+                <div class="iSpace"></div>
+                <div class="container">
+                    <img class="hoverables" src="img/art/art2.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2018<br> <br> H x W in. <br> <br> Ink</div>
+                    </div>
+                </div>
+                <div class="iSpace"></div>
+                <div class="container">
+                    <img class="hoverables" src="img/art/art3.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2018<br> <br> H x W in. <br> <br> Watercolor, ink, collage</div>
+                    </div>
+                </div>
+                <div class="iSpace"></div>
+                <div class="container">
+                    <img class="hoverables" src="img/art/art4.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2018<br> <br> H x W in. <br> <br> Collage</div>
+                    </div>
+                </div>
+                <div class="iSpace"></div>
+                <div class="container">
+                    <img class="hoverables" src="img/art/art5.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2018<br> <br> H x W in. <br> <br> Ink</div>
+                    </div>
+                </div>
+                <div class="iSpace"></div>
+                <div class="container">
+                    <img class="hoverables" src="img/art/art6.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2017<br> <br> H x W in. <br> <br> Pastels</div>
+                    </div>
+                </div>
+                <div class="iSpace"></div>
+                <div class="container">
+                    <img class="hoverables" src="img/art/art7.jpg"></img>
+                    <div class="overlay">
+                        <div class="text">2017<br> <br> H x W in. <br> <br> Collage, colored pencil</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="EPModal" class="tall-modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="EPclose">&#10006;&#xFE0E;</span>
+            <text id="title">Events</text>
+            <div id="space"></div>
+              <text id="W" onclick="mus(-1, $(this).html())">Whitney Musuem +</text> <br>
+                <div id="Whitney">
+                  <text onclick="mus(2017, $(this).html())" id="_2017">&nbsp; 2017 +</text> <br>
+                  <div id="w2017">
+                    <a href="https://whitney.org/Education/Teens/TeensBlog/Unravel" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Unraveled: Teen Night</a> <br>
+                    <a href="https://www.facebook.com/events/1123212607825651/" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Making Us: Teen Night</a> <br>
+                    <a href="https://www.facebook.com/events/100906307107739/" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Whitney Biennial: Teen Night</a> <br>
+                    <a href="https://whitney.org/Education/EducationBlog/AdobeBrickMakingRafaEsparza" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Adobe Brick Making Workshop with Rafa Esparza</a> <br>
+                  </div>
+                  <text onclick="mus(2016, $(this).html())" id="_2016">&nbsp; 2016 +</text> <br>
+                  <div id="w2016">
+                    <a href="https://whitney.org/Education/Teens/TeensBlog/HalloweenTeenNight2016" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Halloween: Teen Night</a> <br>
+                    <a href="https://whitney.org/Education/Teens/TeensBlog/TeenEventCollected" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Collected: Teen Night</a> <br>
+                    <a href="https://www.facebook.com/events/991271130958212/" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>CITIZENFOUR: Screening</a> <br>
+                    <a href="https://www.facebook.com/events/1364234866925232/" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Sculpture Gardens with Virginia Overton</a> <br>
+                  </div>
+                </div>
+              <text id="N" onclick="mus(-1, $(this).html())">New Museum +</text> <br>
+                <div id="New">
+                  <a href="https://www.newmuseum.org/calendar/view/1330/teen-night-5" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Teen Night 2018</a> <br>
+                  <a href="https://www.newmuseum.org/calendar/view/674/teen-night-3" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Teen Night 2016</a> <br>
+                  <a href="https://www.newmuseum.org/calendar/view/467/teen-night-2" target="_blank" id="info"> <span class="dot">&nbsp; &middot;</span>Teen Night 2015</a> <br>
+                </div>
+        </div>
+    </div>
+
+    <div id="SisModal" class="tall-modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="Sisclose">&#10006;&#xFE0E;</span>
+            <text id="title">Sisterhood</text>
+            <div id="space"></div>
+            <a href="https://thriveglobal.com/stories/i-marchforsisterhood-because-i-believe-in-the-power-of-women-and-girls/" target="_blank" id="info"> <span class="dot">&middot;</span> Why I March for Sisterhood</a>
+            <div id="space"></div>
+            <iframe id="vid" src="https://www.youtube.com/embed/BcULmLwT4jc" frameborder="0" allowfullscreen></iframe>
+            <div id="space"></div>
+            <a href="https://www.teenvogue.com/story/girls-who-code-healing-sisterhood-visual-album" target="_blank" id="info"> <span class="dot">&middot;</span> Sisterh>>d FW18</a>
+            <div id="space"></div>
+            <a href="https://www.instagram.com/period.goucher" target="_blank" id="info"> <span class="dot">&middot;</span> @period.goucher</a>
+            <div id="space"></div>
+        </div>
+    </div>
+
+    <div id="ContactModal" class="modal">
+        <div class="modal-content">
+            <span onclick="hide($(this).attr('id'))" id="Contactclose">&#10006;&#xFE0E;</span>
+            <div id="space"></div>
+            <text id="info">e : <a href="mailto:giagrier@gmail.com?Subject=Hello!" target="_blank">giagrier@gmail.com</a></text>
+            <div id="space"></div>
+            <text id="info">ig: <a target="_blank" href="https://www.instagram.com/giagrier/">@giagrier</a></text>
+            <div id="space"></div>
+            <text id="info">linkedin: <a target="_blank" href="https://www.linkedin.com/in/giagrier/">Gia Grier</a></text>
+            <div id="space"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>

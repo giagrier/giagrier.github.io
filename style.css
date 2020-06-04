@@ -11,10 +11,10 @@ body {
 
 a, a:visited { color: #000000; text-decoration: none; }
 
-#fb-video {
-  display: block;
-  width: 100%;
-  height: 100%;
+#vid, #fb-video { padding-top: calc(10px + 2vh); }
+#vid {
+  height: calc(250px + 10vh + 10vw);
+  width: 85%;
 }
 
 .list {
@@ -45,11 +45,6 @@ a, a:visited { color: #000000; text-decoration: none; }
 #PBtn { top: calc(15px + 3.5vh); }
 #ContactBtn { bottom: calc(15px + 3.5vh); }
 
-.slash {
-  position: absolute;
-  font-size: calc(7px + 1vw + 1.2vh);
-}
-
 .highlite {
   color: #E6E6E6; /* needed */
   padding-left: 4vw;
@@ -63,9 +58,13 @@ a, a:visited { color: #000000; text-decoration: none; }
   text-decoration: underline;
   font-size: calc(20px + 2vw + 2vh);
 }
-#info {
-  font-size: calc(10px + 1.5vw + 1vh);
-}
+#info { font-size: calc(9px + 1vw + 1vh); }
+.dot { font-size: 115%; }
+
+#Whitney, #New, #w2017, #w2016 { display: none; }
+#_2017, #_2016 { font-size: calc(10px + 1.25vw + 1vh); }
+
+#W, #N { font-size: calc(12px + 1.5vw + 1vh); }
 
 #gia, #grier {
   color: #D9D9D9;
@@ -85,6 +84,7 @@ a, a:visited { color: #000000; text-decoration: none; }
 #grier { right: calc(50px + 2vw); }
 
 .mspace { padding-bottom: calc(3vh + 1vw); }
+.smallspace { padding-bottom: 0; }
 .space { padding-bottom: 1vh; }
 .iSpace { padding-bottom: calc(2.5vh + 2.5vw); }
 
@@ -99,12 +99,6 @@ a, a:visited { color: #000000; text-decoration: none; }
 #FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn {
   margin-left: calc(10px + 2vw);
   padding-right: calc(10px + 3vh + 7.5vw);
-}
-
-#vid {
-  padding-top: calc(10px + 2vh);
-  width: 85%;
-  height: calc(250px + 10vh + 10vw);
 }
 
 .baritem:hover { color: #CC99FF; }
@@ -160,7 +154,8 @@ a, a:visited { color: #000000; text-decoration: none; }
    font-size: calc(37.5px + 0.75vw + 0.75vh);
 }
 
-a:hover, #Contactclose:hover, #Pclose:hover, #Fclose:hover, #Artclose:hover, #EPclose:hover, #Sisclose:hover, #Campclose:hover { color: #FFFFFF; }
+a:hover, #Contactclose:hover, #Pclose:hover, #Fclose:hover, #Artclose:hover,
+#EPclose:hover, #Sisclose:hover, #Campclose:hover { color: #FFFFFF; }
 
 .modal, .tall-modal {
   display: none;
@@ -230,4 +225,7 @@ a:hover, #Contactclose:hover, #Pclose:hover, #Fclose:hover, #Artclose:hover, #EP
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
   #gia { left: -190px; }
+  /* #fb-video {
+    height: calc(350px + 15vh);
+  } */
 }
