@@ -96,7 +96,7 @@ a, a:visited { color: #000000; text-decoration: none; }
   font-size: calc(10px + 1vw + 2vh);
 }
 
-#FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn {
+#FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn, #VisArtBtn, #CommBtn, #EduBtn, #JustBtn {
   margin-left: calc(10px + 2vw);
   padding-right: calc(10px + 3vh + 7.5vw);
 }
@@ -148,14 +148,14 @@ a, a:visited { color: #000000; text-decoration: none; }
   transform: translate(28.5%, 0%);
 }
 
-#Contactclose, #Artclose, #Fclose, #Pclose, #EPclose, #Sisclose, #Campclose {
+#Contactclose, #Artclose, #Fclose, #Pclose, #EPclose, #Sisclose, #Campclose, #VisArtclose, #Commclose, #Educlose, #Justclose {
    color: #000000;
    float: right;
    font-size: calc(37.5px + 0.75vw + 0.75vh);
 }
 
 a:hover, #Contactclose:hover, #Pclose:hover, #Fclose:hover, #Artclose:hover,
-#EPclose:hover, #Sisclose:hover, #Campclose:hover { color: #FFFFFF; }
+#EPclose:hover, #Sisclose:hover, #Campclose:hover, #VisArtclose:hover #Commclose:hover, #Educlose:hover, #Justclose:hover { color: #FFFFFF; }
 
 .modal, .tall-modal {
   display: none;
@@ -205,7 +205,7 @@ a:hover, #Contactclose:hover, #Pclose:hover, #Fclose:hover, #Artclose:hover,
     font-size: calc(10px + 1vw + 1vh);
   }
 
-  #FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn {
+  #FBtn, #ArtBtn, #CampBtn, #SisBtn, #EPBtn, #VisArtBtn, #CommBtn, #EduBtn, #JustBtn {
     border: calc(2px + 0.2vw + 0.15vh) solid;
     padding: calc(2.5px + 1vh + 0.5vw);
     padding-right: calc(10px + 1vh + 7.5vw);
